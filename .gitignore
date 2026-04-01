@@ -1,0 +1,29 @@
+
+# API keys — NEVER push this
+.env
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# ChromaDB — too large for GitHub
+chroma_db*/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Streamlit cache
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+*.temp
