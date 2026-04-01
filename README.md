@@ -4,6 +4,9 @@ A production-grade RAG (Retrieval-Augmented Generation) application
 that lets you upload multiple PDFs and ask questions across all of them.
 Answers are grounded in your documents with source citations.
 
+## Live Demo
+https://pdf-app-assistant-x3qhpafhfwkxd3jonpqxfd.streamlit.app/
+
 ## Features
 - Upload multiple PDFs simultaneously
 - Ask questions across all documents at once
@@ -13,12 +16,13 @@ Answers are grounded in your documents with source citations.
 - Section-aware chunking — abstract and introduction preserved as dedicated chunks
 
 ## Tech Stack
-| Component   | Technology |
-| LLM         | Llama 3.3 70B via Groq API |
-| Embeddings  | BAAI/bge-base-en-v1.5 (768 dims, local) |
-| Vector DB   | ChromaDB (persisted to disk) |
-| Framework   | LangChain |
-| UI          | Streamlit |
+| Component | Technology |
+|---|---|
+| LLM | Llama 3.3 70B via Groq API |
+| Embeddings | BAAI/bge-base-en-v1.5 (768 dims, local) |
+| Vector DB | ChromaDB (persisted to disk) |
+| Framework | LangChain |
+| UI | Streamlit |
 
 ## Architecture
 ```
